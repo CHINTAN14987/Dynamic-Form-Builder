@@ -1,0 +1,37 @@
+.groupEvent_Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.groupEvent_Wrapper :nth-child(1) {
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #2f0a6b;
+  font-family: "SF Pro Text";
+}
+.groupEvent_Wrapper :nth-child(1) input {
+  width: 2rem;
+  margin-left: 20px;
+  background: #ffffff;
+  border: 1px solid #e9e2f4;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}
+.groupEvent_Wrapper :nth-child(1) span {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  letter-spacing: inherit;
+  color: inherit;
+}

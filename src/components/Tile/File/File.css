@@ -1,0 +1,24 @@
+.inputImageFilePreview{
+   
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 18px;
+}
+
+
+  .noURLContainer{
+    height: 8rem;
+    width: 8rem;
+    background: #FFFFFF;
+    border: 1px solid #E9E2F4;
+    border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+   
+  }
+  .noURLContainer .icon{
+       color: #2F0A6B;
+  }

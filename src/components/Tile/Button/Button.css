@@ -1,0 +1,38 @@
+.rawButtonContainer {
+  border: 1px solid #e9e2f4;
+  width: 8rem;
+  max-width: 100%;
+  padding: 5px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.rawButtonContainer h3 {
+  margin: 0;
+  font: inherit;
+  font-weight: 600;
+}
+.rawButtonContainer span:nth-child(2) {
+  font-weight: 600;
+}
+.rawButtonInnerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.SubmitButtonField,
+.BackButtonField {
+  background-color: #2f0a6b;
+  color: white;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  min-width: 8rem;
+}

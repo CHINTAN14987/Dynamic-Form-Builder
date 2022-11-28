@@ -1,0 +1,16 @@
+.eventInput {
+  height: 2rem;
+  background: #ffffff;
+  border: 1px solid #e9e2f4;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #2f0a6b;
+}
+.event-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

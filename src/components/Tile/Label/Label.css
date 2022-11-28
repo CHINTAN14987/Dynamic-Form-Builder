@@ -1,0 +1,133 @@
+.rawTextBoxContainer {
+  border: 1px solid #e9e2f4;
+  width: 8rem;
+  padding: 5px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+.rawTextBoxContainer h3 {
+  margin: 0;
+  font: inherit;
+  font-weight: 600;
+}
+.rawTextBoxContainer span:nth-child(2) {
+  font-weight: 600;
+}
+.rawTextBoxInnerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.labelContainer {
+  background: #ffffff;
+  border: 1px solid #e9e2f4;
+  border-radius: 18px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  width: 15rem;
+  padding: 10px;
+  color: #2f0a6b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content {
+  border-radius: 18px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 3px 5px;
+  color: #c61010;
+  background-color: lightsalmon;
+}
+.Accepted,
+.Published,
+.LowRisk,
+.Scheduled,
+.Active {
+  color: #1c7217;
+  background-color: lightgreen;
+}
+.MediumRisk,
+.Draft {
+  color: #941810;
+  background-color: lightyellow;
+}
+.bodyTitleTile {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bodyTitleTile span:nth-child(2) {
+  font-size: 13px;
+}
+.bodyitemWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.bodyitemWrapper span {
+  font-size: 13px;
+}
+.BodyInner-Wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.bodyitemWrapper .Body {
+  font-size: 12px;
+  text-align: center;
+}
+.iconlabelWrapper {
+  flex-direction: column;
+  padding: 0;
+}
+.iconlabelWrapper span:nth-child(1) {
+  height: 2rem;
+}
+.iconlabelWrapper > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #e9e2f4;
+  height: 2rem;
+}
+.phoneicon {
+  height: fit-content !important;
+}
+
+.iconlabelWrapper .bodyicon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #e9e2f4;
+}
+.bodyicon span {
+  margin-left: 1rem;
+}
+.labeltoggleInnerContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  border-right: 1px solid #e9e2f4;
+  justify-content: center;
+  min-height: 4em;
+  overflow-wrap: anywhere;
+}
+.labelToggleContainer {
+  padding: 0 10px;
+}
+.switch-button {
+  margin-left: 5px;
+}

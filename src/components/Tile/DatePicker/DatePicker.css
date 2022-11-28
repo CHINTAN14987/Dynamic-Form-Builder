@@ -1,0 +1,14 @@
+.datePicker_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.datePicker_wrapper span:nth-child(1) {
+  font-size: 2rem;
+  color: #2f0a6b;
+}
+.datePicker_wrapper span:nth-child(2) {
+  font-weight: 800;
+  font-size: 16px;
+  color: #2f0a6b;
+}

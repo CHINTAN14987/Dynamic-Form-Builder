@@ -1,0 +1,24 @@
+
+
+ .customInputfield input[type=file]::file-selector-button {
+    padding: 10px;
+    border: 1px solid silver;
+    background-color: #FFFFFF;
+    color: #2F0A6B;
+    font-weight: 600;
+    
+  }
+ .customInputfield input[type=file]::file-selector-text {
+  
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+letter-spacing: 1px;
+    
+  }
+
+
+  .cutomInput{
+    position: absolute;
+  }
